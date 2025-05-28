@@ -1,0 +1,22 @@
+# Node (React, Angular, JS)
+node_modules/
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# C#
+bin/
+obj/
+
+# Ruby
+*.gem
+.bundle/
+
+# MacOS / Linux / General
+.DS_Store
+*.log
+.env
