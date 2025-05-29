@@ -42,5 +42,5 @@ Calcular-Calificacion/
 
 ## Contacto
 
-[Tu perfil de GitHub (https://github.com/FedE-URU)]
-[Tu perfil de LinkedIn (www.linkedin.com/in/federicoesteves)]
+[![GitHub](https://img.shields.io/badge/GitHub-FedE--URU-blue?style=flat-square&logo=github)](https://github.com/FedE-URU)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-federicoesteves-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/federicoesteves)
