@@ -1,6 +1,11 @@
 # Calcular_Calificacion
 Repositorio para el ejercicio de cálculo de calificaciones de alumnos implementado en múltiples lenguajes
 
+[![GitHub](https://img.shields.io/github/last-commit/FedE-URU/Calcular_Calificacion?style=flat-square)](https://github.com/FedE-URU/Calcular_Calificacion)
+[![GitHub Stars](https://img.shields.io/github/stars/FedE-URU/Calcular_Calificacion?style=flat-square)](https://github.com/FedE-URU/Calcular_Calificacion/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/FedE-URU/Calcular_Calificacion?style=flat-square)](https://github.com/FedE-URU/Calcular_Calificacion/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/FedE-URU/Calcular_Calificacion?style=flat-square)](https://github.com/FedE-URU/Calcular_Calificacion/issues)
+
 ## Descripción del ejercicio
 
 > Calcular las calificaciones de un grupo de alumnos.  
@@ -30,15 +35,16 @@ Repositorio para el ejercicio de cálculo de calificaciones de alumnos implement
 
 ## Estructura de carpetas
 
-Calcular-Calificacion/
-├── web/
-├── bash/
-├── csharp/
-├── python/
-├── react/
-├── ruby/
-├── angular/
-└── js-terminal/
+El repositorio está organizado de la siguiente manera:
+
+- **`web/`**: Contiene la implementación para **navegadores web**, utilizando tecnologías como HTML, CSS y JavaScript.
+- **`bash/`**: Alberga los **scripts de Bash** diseñados para automatizar tareas relacionadas con el cálculo de calificaciones en entornos de línea de comandos Unix/Linux.
+- **`csharp/`**: Incluye el **proyecto de C#** desarrollado con el framework .NET, proporcionando una solución en un entorno de desarrollo robusto.
+- **`python/`**: Contiene los **scripts de Python**, conocidos por su legibilidad y versatilidad en la implementación del algoritmo.
+- **`react/`**: Alberga el **proyecto de React**, utilizando una biblioteca de JavaScript moderna para construir interfaces de usuario dinámicas y reactivas.
+- **`ruby/`**: Incluye los **scripts de Ruby**, un lenguaje elegante y orientado a objetos, para la implementación del cálculo.
+- **`angular/`**: Contiene el **proyecto de Angular**, un framework completo para la construcción de aplicaciones web complejas y escalables.
+- **`js-terminal/`**: Alberga la implementación de **JavaScript diseñada para ejecutarse en la terminal** utilizando Node.js, ideal para utilidades de línea de comandos.
 
 ## Contacto
 
