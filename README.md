@@ -37,14 +37,14 @@ Repositorio para el ejercicio de cálculo de calificaciones de alumnos implement
 
 El repositorio está organizado de la siguiente manera:
 
-- **`web/`**: Contiene la implementación para **navegadores web**, utilizando tecnologías como HTML, CSS y JavaScript.
-- **`bash/`**: Alberga los **scripts de Bash** diseñados para automatizar tareas relacionadas con el cálculo de calificaciones en entornos de línea de comandos Unix/Linux.
-- **`csharp/`**: Incluye el **proyecto de C#** desarrollado con el framework .NET, proporcionando una solución en un entorno de desarrollo robusto.
-- **`python/`**: Contiene los **scripts de Python**, conocidos por su legibilidad y versatilidad en la implementación del algoritmo.
-- **`react/`**: Alberga el **proyecto de React**, utilizando una biblioteca de JavaScript moderna para construir interfaces de usuario dinámicas y reactivas.
-- **`ruby/`**: Incluye los **scripts de Ruby**, un lenguaje elegante y orientado a objetos, para la implementación del cálculo.
-- **`angular/`**: Contiene el **proyecto de Angular**, un framework completo para la construcción de aplicaciones web complejas y escalables.
-- **`js-terminal/`**: Alberga la implementación de **JavaScript diseñada para ejecutarse en la terminal** utilizando Node.js, ideal para utilidades de línea de comandos.
+- **web/**: Implementación para navegador usando HTML, CSS y JS.
+- **bash/**: Scripts en Bash para ejecución desde terminal Unix.
+- **csharp/**: Proyecto en C# usando .NET.
+- **python/**: Scripts simples en Python.
+- **react/**: Interfaz web con React.
+- **ruby/**: Implementación con Ruby.
+- **angular/**: Proyecto web con Angular.
+- **js-terminal/**: Versión en JavaScript para línea de comandos con Node.js.
 
 ## Modo de uso
 
