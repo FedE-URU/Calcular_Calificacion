@@ -46,7 +46,9 @@ El repositorio está organizado de la siguiente manera:
 - **`angular/`**: Contiene el **proyecto de Angular**, un framework completo para la construcción de aplicaciones web complejas y escalables.
 - **`js-terminal/`**: Alberga la implementación de **JavaScript diseñada para ejecutarse en la terminal** utilizando Node.js, ideal para utilidades de línea de comandos.
 
-## Modo de uso: JavaScript (Terminal)
+## Modo de uso
+
+### JavaScript (Terminal)
 
 1. **Instalar Node.js**  
    [Descargar desde nodejs.org](https://nodejs.org)
