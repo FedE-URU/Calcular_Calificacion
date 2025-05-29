@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Calificaciones</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Calificaciones</h1>
+        <div id="formulario-alumno">
+            <label for="nombre">Nombre del Alumno:</label>
+            <input type="text" id="nombre"><br><br>
+
+            <label for="practica">Nota Práctica (0-10):</label>
+            <input type="number" id="practica" min="0" max="10"><br><br>
+
+            <label for="problemas">Nota Problemas (0-10):</label>
+            <input type="number" id="problemas" min="0" max="10"><br><br>
+
+            <label for="teorica">Nota Teórica (0-10):</label>
+            <input type="number" id="teorica" min="0" max="10"><br><br>
+
+            <button onclick="calcularCalificacion()">Calcular Calificación</button>
+        </div>
+
+        <div id="resultado" class="oculto">
+            <h2>Resultado:</h2>
+            <p><span id="nombre-alumno"></span> - Nota Final: <span id="nota-final"></span></p>
+        </div>
+
+        <div id="error" class="oculto">
+            <p class="error-message">Error: Las notas deben estar entre 0 y 10.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
