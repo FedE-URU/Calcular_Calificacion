@@ -46,6 +46,18 @@ El repositorio está organizado de la siguiente manera:
 - **`angular/`**: Contiene el **proyecto de Angular**, un framework completo para la construcción de aplicaciones web complejas y escalables.
 - **`js-terminal/`**: Alberga la implementación de **JavaScript diseñada para ejecutarse en la terminal** utilizando Node.js, ideal para utilidades de línea de comandos.
 
+## Modo de uso: JavaScript (Terminal)
+
+1. **Instalar Node.js**  
+   [Descargar desde nodejs.org](https://nodejs.org)
+
+2. **Crear archivo `calculador.js`**  
+   Ubicarlo dentro de `/js-terminal` y pegar el código fuente.
+
+3. **Ejecutar desde la terminal**  
+   ```bash
+   node calculador.js
+
 ## Contacto
 
 [![GitHub](https://img.shields.io/badge/GitHub-FedE--URU-blue?style=flat-square&logo=github)](https://github.com/FedE-URU)
