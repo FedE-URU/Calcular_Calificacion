@@ -24,7 +24,7 @@ Repositorio para el ejercicio de cálculo de calificaciones de alumnos implement
 
 ## Lenguajes implementados
 
-- [ ] Web
+- [x] Web
 - [ ] Bash
 - [ ] C#
 - [ ] Python
@@ -59,6 +59,25 @@ El repositorio está organizado de la siguiente manera:
 3. **Ejecutar desde la terminal**  
    ```bash
    node calculador.js
+
+---
+
+### Versión Web
+
+1. **Crear la carpeta `/web`**  
+   Dentro de tu proyecto, crear una carpeta llamada `web` (si no existe).
+
+2. **Agregar los siguientes archivos**  
+   Dentro de la carpeta `web`, asegurate de tener los siguientes archivos:
+   - `calificaciones.html`
+   - `estilos.css`
+   - `script.js`
+
+3. **Abrir en el navegador**  
+   Simplemente abrí el archivo `calificaciones.html` con doble clic o haciendo clic derecho → **"Abrir con"** → tu navegador preferido.
+
+   También podés subir el contenido a un servidor web (por ejemplo, GitHub Pages) si querés que otros puedan probarlo en línea.
+
 
 ## Contacto
 
