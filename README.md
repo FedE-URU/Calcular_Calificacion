@@ -30,7 +30,7 @@ Repositorio para el ejercicio de cálculo de calificaciones de alumnos implement
 - [ ] Python
 - [ ] React
 - [ ] Ruby
-- [ ] Angular
+- [x] Angular
 - [x] JavaScript (versión para terminal)
 
 ## Estructura de carpetas
@@ -76,7 +76,37 @@ El repositorio está organizado de la siguiente manera:
 3. **Abrir en el navegador**  
    Simplemente abrí el archivo `calificaciones.html` con doble clic o haciendo clic derecho → **"Abrir con"** → tu navegador preferido.
 
-   También podés subir el contenido a un servidor web (por ejemplo, GitHub Pages) si querés que otros puedan probarlo en línea.
+---
+
+### Versión Angular
+
+1. **Crear la carpeta `/angular`**  
+   Dentro de tu proyecto, crear una carpeta llamada `angular` (si no existe).
+
+2. **Agregar los siguientes archivos**  
+   Dentro de la carpeta `angular`, asegurate de tener los siguientes archivos:
+   - `calculadora.component.html`
+   - `calculadora.component.css`
+   - `calculadora.component.ts`
+
+3. **Integrar en un proyecto Angular existente**  
+   Copiá estos archivos en la carpeta `src/app/` de tu proyecto Angular.  
+   Luego:
+
+   - Asegurate de **declarar** el componente en `app.module.ts`.
+   - Usalo en `app.component.html` con la etiqueta:
+
+     ```html
+     <app-calculadora></app-calculadora>
+     ```
+
+4. **Ejecutar en el navegador**  
+   Desde la terminal, ejecutá el servidor de desarrollo:
+
+   ```bash
+   ng serve
+5. **Luego abrí tu navegador en:**
+   http://localhost:4200
 
 
 ## Contacto
