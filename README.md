@@ -29,7 +29,7 @@ Repositorio para el ejercicio de cálculo de calificaciones de alumnos implement
 - [ ] C#
 - [ ] Python
 - [ ] React
-- [ ] Ruby
+- [x] Ruby
 - [x] Angular
 - [x] JavaScript (versión para terminal)
 
@@ -107,6 +107,35 @@ El repositorio está organizado de la siguiente manera:
    ng serve
 5. **Luego abrí tu navegador en:**
    http://localhost:4200
+
+---
+---
+
+### Versión Ruby
+
+1. **Instalar Ruby (si no lo tenés)**
+   - [Descargar desde ruby-lang.org](https://www.ruby-lang.org/es/downloads/)
+   - Luego verificá la instalación con:
+     ```bash
+     ruby -v
+     ```
+
+2. **Crear la carpeta `/ruby`**  
+   Dentro de tu proyecto, crear una carpeta llamada `ruby` (si no existe).
+
+3. **Agregar el siguiente archivo**  
+   Dentro de la carpeta `ruby`, asegurate de tener el siguiente archivo:
+   - `calculador.rb`
+
+4. **Ejecutar en la terminal**  
+   Abrí la terminal, navegá a la carpeta `ruby` y ejecutá el script con:
+
+   ```bash
+   ruby calculador.rb
+
+
+
+   
 
 
 ## Contacto
