@@ -28,7 +28,7 @@ Repositorio para el ejercicio de cálculo de calificaciones de alumnos implement
 - [ ] Bash
 - [ ] C#
 - [ ] Python
-- [ ] React
+- [x] React
 - [x] Ruby
 - [x] Angular
 - [x] JavaScript (versión para terminal)
@@ -133,11 +133,28 @@ El repositorio está organizado de la siguiente manera:
    ```bash
    ruby calculador.rb
 
+---
 
+### Versión React
+
+1. **Instalar Node.js**  
+   React necesita Node.js para ejecutarse. Si no lo tenés instalado, descargalo desde:  
+   👉 [https://nodejs.org](https://nodejs.org)
+
+2. **Inicializar un nuevo proyecto React**  
+   Abrí una terminal y ejecutá:
+
+   ```bash
+   npx create-react-app calcular-calificacion
+   cd calcular-calificacion
+   
+3. Ejecutar la aplicación
+Desde la raíz del proyecto (donde está el archivo package.json), ejecutá:
+
+   ```bash
+   npm start
 
    
-
-
 ## Contacto
 
 [![GitHub](https://img.shields.io/badge/GitHub-FedE--URU-blue?style=flat-square&logo=github)](https://github.com/FedE-URU)
