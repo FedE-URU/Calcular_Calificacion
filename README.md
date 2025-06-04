@@ -27,7 +27,7 @@ Repositorio para el ejercicio de cálculo de calificaciones de alumnos implement
 - [x] Web
 - [ ] Bash
 - [ ] C#
-- [ ] Python
+- [x] Python
 - [x] React
 - [x] Ruby
 - [x] Angular
@@ -139,7 +139,7 @@ El repositorio está organizado de la siguiente manera:
 
 1. **Instalar Node.js**  
    React necesita Node.js para ejecutarse. Si no lo tenés instalado, descargalo desde:  
-   👉 [https://nodejs.org](https://nodejs.org)
+   [https://nodejs.org](https://nodejs.org)
 
 2. **Inicializar un nuevo proyecto React**  
    Abrí una terminal y ejecutá:
@@ -153,6 +153,22 @@ Desde la raíz del proyecto (donde está el archivo package.json), ejecutá:
 
    ```bash
    npm start
+
+---
+
+### Versión Python
+
+1. **Crear la carpeta `/python`**  
+   Dentro de tu proyecto, crear una carpeta llamada `python` (si no existe).
+
+2. **Agregar el siguiente archivo**  
+   - `calculador.py`
+
+3. **Ejecutar desde la terminal**  
+   Asegurate de tener Python instalado. Luego, desde la terminal ejecutá:
+
+   ```bash
+   python python/calculador.py
 
    
 ## Contacto
