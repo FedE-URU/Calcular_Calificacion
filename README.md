@@ -170,6 +170,23 @@ Desde la raíz del proyecto (donde está el archivo package.json), ejecutá:
    ```bash
    python python/calculador.py
 
+---
+
+### C# (Terminal)
+
+1. **Instalar .NET SDK**  
+   [Descargar desde dotnet.microsoft.com](https://dotnet.microsoft.com/download)
+
+2. **Crear archivo `Program.cs`**  
+   Ubicarlo dentro de la carpeta `/csharp` y pegar el código fuente.
+
+3. **Ejecutar desde la terminal**  
+   Abrí una terminal en la carpeta `/csharp` y ejecutá:
+
+   ```bash
+   dotnet new console --force
+   dotnet run
+
    
 ## Contacto
 
