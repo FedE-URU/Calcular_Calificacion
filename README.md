@@ -187,6 +187,28 @@ Desde la raíz del proyecto (donde está el archivo package.json), ejecutá:
    dotnet new console --force
    dotnet run
 
+---
+
+### Bash (Terminal)
+
+1. **Tener Bash disponible**  
+   Este script funciona en sistemas Linux, macOS o Windows con WSL o Git Bash instalado.
+
+2. **Crear archivo `calculador.sh`**  
+   Ubicarlo dentro de la carpeta `/bash` y pegar el código fuente.
+
+3. **Dar permisos de ejecución (opcional)**  
+   Desde la terminal, ejecutar:
+
+   ```bash
+   chmod +x bash/calculador.sh
+
+4. **Ejecutar el script**
+En la terminal, correr:
+
+   ```bash
+   bash bash/calculador.sh
+
    
 ## Contacto
 
