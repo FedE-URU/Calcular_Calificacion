@@ -24,9 +24,10 @@ Repositorio para el ejercicio de cálculo de calificaciones de alumnos implement
 
 ## Lenguajes implementados
 
-- [x] Web
-- [ ] Bash
-- [ ] C#
+- [x] HTML + CSS + JS (Web) 
+- [x] PHP + MySQL (Web)
+- [x] Bash
+- [x] C#
 - [x] Python
 - [x] React
 - [x] Ruby
@@ -208,6 +209,36 @@ En la terminal, correr:
 
    ```bash
    bash bash/calculador.sh
+
+---
+
+### PHP + MySQL (Web)
+
+1. **Requisitos previos**  
+   Tener instalado un servidor local como [XAMPP](https://www.apachefriends.org/index.html), [MAMP](https://www.mamp.info/) o similar, que incluya Apache, PHP y MySQL.
+
+2. **Crear base de datos MySQL**  
+   Ingresar a **phpMyAdmin** o usar la terminal para ejecutar el contenido de:
+
+   - `php/calificaciones_db.sql`
+
+   > Esto creará la base `calificaciones_db` y sus tablas.
+
+3. **Configurar conexión a la base**  
+   Editar el archivo `php/db_config.php` con tus credenciales de MySQL:
+
+   ```php
+   $servername = "localhost";
+   $username = "root";
+   $password = "";
+   $dbname = "calificaciones_db";
+
+4. **Ejecutar en el navegador**
+Mover la carpeta php/ dentro de la carpeta htdocs/ de XAMPP o la carpeta raíz de tu servidor.
+
+Luego, abrir el navegador y acceder a:
+
+http://localhost/php/index.php   
 
    
 ## Contacto
