@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS calificaciones_db;
+
+USE calificaciones_db;
+
+CREATE TABLE IF NOT EXISTS alumnos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    nota_practica DECIMAL(4,2) NOT NULL,
+    nota_problemas DECIMAL(4,2) NOT NULL,
+    nota_teorica DECIMAL(4,2) NOT NULL,
+    nota_final DECIMAL(4,2) NOT NULL,
+    fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
